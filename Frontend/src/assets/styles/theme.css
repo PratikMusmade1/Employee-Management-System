@@ -1,0 +1,43 @@
+/* assets/styles/theme.css
+:root {
+  --primary-green: #2ecc71;
+  --warning-yellow: #f1c40f;
+  --danger-red: #e74c3c;
+  --info-blue: #3498db;
+}
+
+.bg-primaryGreen {
+  background-color: var(--primary-green);
+}
+.text-primaryGreen {
+  color: var(--primary-green);
+}
+
+.bg-warningYellow {
+  background-color: var(--warning-yellow);
+}
+.text-warningYellow {
+  color: var(--warning-yellow);
+}
+
+.bg-dangerRed {
+  background-color: var(--danger-red);
+}
+.text-dangerRed {
+  color: var(--danger-red);
+}
+
+.bg-infoBlue {
+  background-color: var(--info-blue);
+}
+.text-infoBlue {
+  color: var(--info-blue);
+} */
+/* theme.css */
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+.scrollbar-hide {
+  -ms-overflow-style: none;  
+  scrollbar-width: none;     
+}
